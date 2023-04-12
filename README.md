@@ -3,5 +3,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Results
 
 ```bash
-- Images or favicon are not loading
+- Images from `/public` directory did not load, they must be imported
+- Favicon did not load
 ```
