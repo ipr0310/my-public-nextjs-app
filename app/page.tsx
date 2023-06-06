@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import Link from "next/link";
 import Image from "next/image";
 import nextLogo from "../public/next.svg";
 import vercelLogo from "../public/vercel.svg";
@@ -42,24 +43,10 @@ export default function Home() {
           height={37}
           unoptimized
         />
+      </div>
 
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src={nextLogo}
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          unoptimized
-        />
-
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src={nextLogo}
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          unoptimized
-        />
+      <div className="mx-auto">
+        <Link href="/about">About</Link>
       </div>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
